@@ -313,8 +313,7 @@ class FitGenCLI:
         try:
             print("\n🔄 Regenerating workout...")
             
-            generator = WorkoutGenerator(self.db)
-            
+            generator = WorkoutGenerator(self.db, self.history_db)            
             # Create durations dict with new value for today
             durations = {}
             for day in day_names:

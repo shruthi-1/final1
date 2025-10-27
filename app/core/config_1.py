@@ -71,6 +71,9 @@ class Settings(BaseSettings):
     BMI_MAX: float = 60.0
     AGE_MIN: int = 13
     AGE_MAX: int = 100
+
+    WORKOUT_HISTORY_DB_URI: str = "mongodb://localhost:27017"
+    WORKOUT_HISTORY_DB_NAME: str = "nutrix_workout_history"
     
     # Session Configuration
     SESSION_TIMEOUT_MINUTES: int = 30
