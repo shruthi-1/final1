@@ -1,0 +1,11 @@
+# MongoDB Configuration
+MONGO_URI=mongodb://localhost:27017
+DATABASE_NAME=nutrix
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8000
+DEBUG=True
+
+# Application Settings
+LOG_LEVEL=INFO
